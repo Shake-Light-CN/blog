@@ -36,7 +36,7 @@ export const booknavConfig: BooknavGroup[] = [
 				url: "https://www.zhixue.com",
 				desc: "让学习更简单",
 				icon: "https://pic.mksucai.com/00/12/58/6cc0ee415b0ef124.webp",
-				weight: 10,
+				weight: 1,
 			},
 		],
 	},
@@ -45,7 +45,7 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "开发",
 		icon: "material-symbols:code-rounded",
 		desc: "写代码时离不开的站点",
-		weight: 100,
+		weight: 2,
 		items: [
 			{
 				title: "GitHub",
@@ -88,7 +88,7 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "项目",
 		icon: "material-symbols:code-rounded",
 		desc: "好用的开源项目",
-		weight: 90,
+		weight: 3,
 		items: [
 			{
 				title: "Firefly",
@@ -104,7 +104,7 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "设计",
 		icon: "material-symbols:palette-outline-rounded",
 		desc: "配色、图标与灵感来源",
-		weight: 90,
+		weight: 4,
 		items: [
 			{
 				title: "Iconify",
@@ -125,7 +125,7 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "工具",
 		icon: "material-symbols:build-outline-rounded",
 		desc: "顺手的在线小工具",
-		weight: 80,
+		weight: 5,
 		items: [
 			{
 				title: "TinyPNG",
@@ -152,20 +152,20 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "资源",
 		icon: "material-symbols:auto-stories-outline-rounded",
 		desc: "文档、教程与阅读",
-		weight: 70,
+		weight: 0,
 		items: [
 			{
 				title: "Firefly Docs",
 				url: "https://docs-firefly.cuteleaf.cn",
 				desc: "Firefly 主题模板文档",
 				icon: "https://docs-firefly.cuteleaf.cn/logo.png",
-				weight: 10,
+				weight: 0,
 			},
 			{
 				title: "夏夜流萤",
 				url: "https://blog.cuteleaf.cn",
 				desc: "飞萤之火自无梦的长夜亮起",
-				weight: 9,
+				weight: 1,
 			},
 		],
 	},

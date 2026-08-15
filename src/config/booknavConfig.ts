@@ -24,6 +24,22 @@ export const booknavPageConfig: BooknavPageConfig = {
 // 书签导航配置
 // 每个数组项是一个分类组，分类组内的 items 是该分类下的书签
 export const booknavConfig: BooknavGroup[] = [
+  	{
+		id: "teach",
+		name: "教育",
+		icon: "material-symbols:code-rounded",
+		desc: "好用的开源项目",
+		weight: 90,
+		items: [
+			{
+				title: "Firefly",
+				url: "https://github.com/CuteLeaf/Firefly",
+				desc: "清晰美观的 Astro 个人博客主题模板",
+				icon: "/favicon/firefly-32.png",
+				weight: 10,
+			},
+		],
+	},
 	{
 		id: "dev",
 		name: "开发",

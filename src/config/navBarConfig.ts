@@ -93,6 +93,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			// 书签导航
 			LinkPresets.Booknav,
+          
 			{
 				name: "GitHub",
 				url: "https://github.com/CuteLeaf/Firefly",

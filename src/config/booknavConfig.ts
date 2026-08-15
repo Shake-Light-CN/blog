@@ -24,6 +24,22 @@ export const booknavPageConfig: BooknavPageConfig = {
 // 书签导航配置
 // 每个数组项是一个分类组，分类组内的 items 是该分类下的书签
 export const booknavConfig: BooknavGroup[] = [
+	{
+		id: "test",
+		name: "测试",
+		icon: "material-symbols:code-rounded",
+		desc: "这只是个测试板块",
+		weight: -1,
+		items: [
+			{
+				title: "测试",
+				url: "https://example.com",
+				desc: "测试",
+				icon: "",
+				weight: -1,
+			},
+		],
+	},
   	{
 		id: "teach",
 		name: "教育",
@@ -67,5 +83,4 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
 		],
-	},
 ];

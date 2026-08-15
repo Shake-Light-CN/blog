@@ -95,27 +95,15 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Booknav,
           
 			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				name: "QQ群 - 信标学苑",
+				url: "https://qm.qq.com/q/EOyIVA5G5G",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
+				name: "测试",
+				url: "https://example.com",
+				external: false,
 				icon: "material-symbols:docs",
 			},
 		],

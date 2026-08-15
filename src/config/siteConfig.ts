@@ -74,7 +74,7 @@ export const siteConfig: SiteConfig = {
 			type: "image",
 			value: "/assets/images/logo.png",
 			valueDark: "/assets/images/logo.png",
-			alt: "🍀",
+			alt: "logo",
 		},
 		// 导航栏标题
 		title: "摇光的小站 - Shake Light's Blog",

@@ -55,7 +55,7 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "七天网络",
 				url: "https://www.7net.cc/build/home/index/index.html",
-				desc: "安徽七天网络科技有限公司是一家以智能阅卷平台为依托、专注于教育大数据资源的开发与应用、服务于K12领域学校、学生和家长的国家高新技术互联网企业。",
+				desc: "让数据驱动个性化学习发展，致力于“为每个人创建个性化学习空间”",
 				icon: "https://zhengxin-pub.cdn.bcebos.com/logopic/a04def536e6039d3c33a756440211a3e_fullsize.jpg",
 				weight: 1,
 			},

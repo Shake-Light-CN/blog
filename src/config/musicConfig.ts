@@ -48,10 +48,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "鹿 be free",
-				artist: "尚雯婕",
-				url: "/assets/music/lubefree.mp3",
-				cover: "/assets/music/cover/lubefree.webp",
+				name: "刚好遇见你",
+				artist: "李玉刚",
+				url: "/assets/music/ghyjn.mp3",
+				cover: "/assets/music/cover/ghyjn.jpg",
 				lrc: "",
 			},
 		],

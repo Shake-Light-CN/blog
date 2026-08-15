@@ -1,42 +1,43 @@
 ---
 title: Markdown 教程
 published: 1970-01-01
-pinned: false
+updated: 2026-08-15
+draft: true
 description: 一个简明的 Markdown 博客示例。
-tags: [Markdown, 文章示例]
 category: 文章示例
-licenseName: "未授权"
+pinned: false
 author: emn178
-sourceLink: "https://github.com/emn178/markdown"
-slug: markdown-tutorial
-
+sourceLink: https://github.com/emn178/markdown
+licenseName: 未授权
+comment: true
 ---
-
 这是一个展示如何编写 Markdown 文件的示例。本文档汇总了核心语法与常见扩展（GFM）。
 
 - [块级元素](#block-elements)
-    - [段落与换行](#paragraphs-and-line-breaks)
-    - [标题](#headers)
-    - [引用](#blockquotes)
-    - [列表](#lists)
-    - [代码块](#code-blocks)
-    - [分割线](#horizontal-rules)
-    - [表格](#table)
+  - [段落与换行](#paragraphs-and-line-breaks)
+  - [标题](#headers)
+  - [引用](#blockquotes)
+  - [列表](#lists)
+  - [代码块](#code-blocks)
+  - [分割线](#horizontal-rules)
+  - [表格](#table)
 - [内联元素](#span-elements)
-    - [链接](#links)
-    - [强调](#emphasis)
-    - [行内代码](#code)
-    - [图片](#images)
-    - [删除线](#strikethrough)
+  - [链接](#links)
+  - [强调](#emphasis)
+  - [行内代码](#code)
+  - [图片](#images)
+  - [删除线](#strikethrough)
 - [杂项](#miscellaneous)
-    - [自动链接](#automatic-links)
-    - [反斜杠转义](#backslash-escapes)
+  - [自动链接](#automatic-links)
+  - [反斜杠转义](#backslash-escapes)
 - [内联 HTML](#inline-html)
 
-<a id="block-elements"></a>
+
+
 ## 块级元素
 
-<a id="paragraphs-and-line-breaks"></a>
+
+
 ### 段落与换行
 
 #### 段落
@@ -47,10 +48,12 @@ HTML 标签：`<p>`
 
 代码：
 
-    This will be
-    inline.
+```
+This will be
+inline.
 
-    This is second paragraph.
+This is second paragraph.
+```
 
 预览：
 
@@ -71,8 +74,10 @@ HTML 标签：`<br />`
 
 代码：
 
-    This will be not
-    inline.
+```
+This will be not
+inline.
+```
 
 预览：
 
@@ -83,7 +88,8 @@ inline.
 
 ---
 
-<a id="headers"></a>
+
+
 ### 标题
 
 Markdown 支持两种标题样式：Setext 与 atx。
@@ -96,10 +102,12 @@ HTML 标签：`<h1>`，`<h2>`
 
 代码：
 
-    This is an H1
-    =============
-    This is an H2
-    -------------
+```
+This is an H1
+=============
+This is an H2
+-------------
+```
 
 预览：
 
@@ -119,9 +127,11 @@ HTML 标签：`<h1>`，`<h2>`，`<h3>`，`<h4>`，`<h5>`，`<h6>`
 
 代码：
 
-    # This is an H1
-    ## This is an H2
-    ###### This is an H6
+```
+# This is an H1
+## This is an H2
+###### This is an H6
+```
 
 预览：
 
@@ -139,9 +149,11 @@ HTML 标签：`<h1>`，`<h2>`，`<h3>`，`<h4>`，`<h5>`，`<h6>`
 
 代码：
 
-    # This is an H1 #
-    ## This is an H2 ##
-    ### This is an H3 ######
+```
+# This is an H1 #
+## This is an H2 ##
+### This is an H3 ######
+```
 
 预览：
 
@@ -155,7 +167,8 @@ HTML 标签：`<h1>`，`<h2>`，`<h3>`，`<h4>`，`<h5>`，`<h6>`
 
 ---
 
-<a id="blockquotes"></a>
+
+
 ### 引用
 
 HTML 标签：`<blockquote>`
@@ -164,12 +177,14 @@ Markdown 使用邮件风格的 **>** 作为引用符号。若手动换行并在�
 
 代码：
 
-    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-    > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-    > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-    >
-    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-    > id sem consectetuer libero luctus adipiscing.
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+>
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+```
 
 预览：
 
@@ -188,12 +203,14 @@ Markdown 允许“偷懒”：在一个硬换行段落中，只在第一行前�
 
 代码：
 
-    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-    consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-    id sem consectetuer libero luctus adipiscing.
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+```
 
 预览：
 
@@ -212,11 +229,13 @@ Markdown 允许“偷懒”：在一个硬换行段落中，只在第一行前�
 
 代码：
 
-    > This is the first level of quoting.
-    >
-    > > This is nested blockquote.
-    >
-    > Back to the first level.
+```
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+```
 
 预览：
 
@@ -234,14 +253,16 @@ Markdown 允许“偷懒”：在一个硬换行段落中，只在第一行前�
 
 代码：
 
-    > ## This is a header.
-    >
-    > 1.   This is the first list item.
-    > 2.   This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     return shell_exec("echo $input | $markdown_script");
+```
+> ## This is a header.
+>
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+>
+> Here's some example code:
+>
+>     return shell_exec("echo $input | $markdown_script");
+```
 
 预览：
 
@@ -249,16 +270,19 @@ Markdown 允许“偷懒”：在一个硬换行段落中，只在第一行前�
 
 > ## This is a header.
 >
-> 1.  This is the first list item.
-> 2.  This is the second list item.
+> 1. This is the first list item.
+> 2. This is the second list item.
 >
 > Here's some example code:
 >
->     return shell_exec("echo $input | $markdown_script");
+> ```
+> return shell_exec("echo $input | $markdown_script");
+> ```
 
 ---
 
-<a id="lists"></a>
+
+
 ### 列表
 
 Markdown 支持有序（数字）与无序（圆点）列表。
@@ -267,13 +291,15 @@ Markdown 支持有序（数字）与无序（圆点）列表。
 
 HTML 标签：`<ul>`
 
-无序列表可使用 **星号 (\*)**、**加号 (+)** 或 **短横线 (-)**。
+无序列表可使用 **星号 ()**、**加号 (+)** 或 **短横线 (-)**。
 
 代码：
 
-    *   Red
-    *   Green
-    *   Blue
+```
+*   Red
+*   Green
+*   Blue
+```
 
 预览：
 
@@ -289,17 +315,21 @@ HTML 标签：`<ul>`
 
 代码：
 
-    +   Red
-    +   Green
-    +   Blue
+```
++   Red
++   Green
++   Blue
+```
 
 或者：
 
 代码：
 
-    -   Red
-    -   Green
-    -   Blue
+```
+-   Red
+-   Green
+-   Blue
+```
 
 #### 有序列表
 
@@ -309,17 +339,19 @@ HTML 标签：`<ol>`
 
 代码：
 
-    1.  Bird
-    2.  McHale
-    3.  Parish
+```
+1.  Bird
+2.  McHale
+3.  Parish
+```
 
 预览：
 
 ---
 
-1.  Bird
-2.  McHale
-3.  Parish
+1. Bird
+2. McHale
+3. Parish
 
 ---
 
@@ -327,7 +359,9 @@ HTML 标签：`<ol>`
 
 代码：
 
-    1986. What a great season.
+```
+1986. What a great season.
+```
 
 预览：
 
@@ -337,17 +371,19 @@ HTML 标签：`<ol>`
 
 ---
 
-你可以用**反斜杠转义 (\\)** 句点：
+你可以用**反斜杠转义 ()** 句点：
 
 代码：
 
-    1986\. What a great season.
+```
+1986\. What a great season.
+```
 
 预览：
 
 ---
 
-1986\. What a great season.
+1986 What a great season.
 
 ---
 
@@ -359,17 +395,18 @@ HTML 标签：`<ol>`
 
 代码：
 
-    *   A list item with a blockquote:
+```
+*   A list item with a blockquote:
 
-        > This is a blockquote
-        > inside a list item.
+    > This is a blockquote
+    > inside a list item.
+```
 
 预览：
 
 ---
 
 - A list item with a blockquote:
-
   > This is a blockquote
   > inside a list item.
 
@@ -381,17 +418,20 @@ HTML 标签：`<ol>`
 
 代码：
 
-    *   A list item with a code block:
+```
+*   A list item with a code block:
 
-            <code goes here>
+        <code goes here>
+```
 
 预览：
 
 ---
 
 - A list item with a code block:
-
-      <code goes here>
+  ```
+  <code goes here>
+  ```
 
 ---
 
@@ -399,11 +439,13 @@ HTML 标签：`<ol>`
 
 代码：
 
-    * A
-      * A1
-      * A2
-    * B
-    * C
+```
+* A
+  * A1
+  * A2
+* B
+* C
+```
 
 预览：
 
@@ -417,7 +459,8 @@ HTML 标签：`<ol>`
 
 ---
 
-<a id="code-blocks"></a>
+
+
 ### 代码块
 
 HTML 标签：`<pre>`
@@ -426,9 +469,11 @@ HTML 标签：`<pre>`
 
 代码：
 
-    This is a normal paragraph:
+```
+This is a normal paragraph:
 
-        This is a code block.
+    This is a code block.
+```
 
 预览：
 
@@ -436,7 +481,9 @@ HTML 标签：`<pre>`
 
 This is a normal paragraph:
 
-    This is a code block.
+```
+This is a code block.
+```
 
 ---
 
@@ -446,17 +493,21 @@ This is a normal paragraph:
 
 代码：
 
-        <div class="footer">
-            &copy; 2004 Foo Corporation
-        </div>
+```
+    <div class="footer">
+        &copy; 2004 Foo Corporation
+    </div>
+```
 
 预览：
 
 ---
 
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
+```
+<div class="footer">
+    &copy; 2004 Foo Corporation
+</div>
+```
 
 ---
 
@@ -468,13 +519,15 @@ This is a normal paragraph:
 
 代码：
 
-    Here's an example:
+```
+Here's an example:
 
-    ```
-    function test() {
-      console.log("notice the blank line before this function?");
-    }
-    ```
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+```
 
 预览：
 
@@ -496,11 +549,13 @@ function test() {
 
 代码：
 
-    ```ruby
-    require 'redcarpet'
-    markdown = Redcarpet.new("Hello World!")
-    puts markdown.to_html
-    ```
+```
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+```
 
 预览：
 
@@ -514,20 +569,23 @@ puts markdown.to_html
 
 ---
 
-<a id="horizontal-rules"></a>
+
+
 ### 分割线（水平线）
 
 HTML 标签：`<hr />`
-一行中放置**三个或以上的短横线 (-)、星号 (\*) 或下划线 (\_)**。符号之间允许有空格。
+一行中放置**三个或以上的短横线 (-)、星号 () 或下划线 ()**。符号之间允许有空格。
 
 代码：
 
-    * * *
-    ***
-    *****
-    - - -
-    ---------------------------------------
-    ___
+```
+* * *
+***
+*****
+- - -
+---------------------------------------
+___
+```
 
 预览：
 
@@ -547,7 +605,8 @@ HTML 标签：`<hr />`
 
 ---
 
-<a id="table"></a>
+
+
 ### 表格
 
 HTML 标签：`<table>`
@@ -563,8 +622,8 @@ HTML 标签：`<table>`
 ```
 | Left | Center | Right |
 |:-----|:------:|------:|
-|aaa   |bbb     |ccc    |
-|ddd   |eee     |fff    |
+| aaa | bbb | ccc |
+| ddd | eee | fff |
 
  A | B
 ---|---
@@ -580,25 +639,33 @@ A |B
 
 ---
 
-| Left | Center | Right |
-| :--- | :----: | ----: |
-| aaa  |  bbb   |   ccc |
-| ddd  |  eee   |   fff |
 
-| A   | B   |
+| Left | Center | Right |
+| ---- | ------ | ----- |
+| aaa | bbb | ccc |
+| ddd | eee | fff |
+
+
+
+| A | B |
 | --- | --- |
 | 123 | 456 |
 
-| A   | B   |
+
+
+| A | B |
 | --- | --- |
-| 12  | 45  |
+| 12 | 45 |
+
 
 ---
 
-<a id="span-elements"></a>
+
+
 ## 内联元素
 
-<a id="links"></a>
+
+
 ### 链接
 
 HTML 标签：`<a>`
@@ -613,9 +680,11 @@ Markdown 支持两种链接样式：行内链接与引用式链接。
 
 代码：
 
-    This is [an example](http://example.com/ "Title") inline link.
+```
+This is [an example](http://example.com/ "Title") inline link.
 
-    [This link](http://example.net/) has no title attribute.
+[This link](http://example.net/) has no title attribute.
+```
 
 预览：
 
@@ -631,7 +700,9 @@ This is [an example](http://example.com/ "Title") inline link.
 
 代码：
 
-    See my [About](/about/) page for details.
+```
+See my [About](/about/) page for details.
+```
 
 预览：
 
@@ -649,16 +720,16 @@ See my [About](/about/) page for details.
 
 代码：
 
-    [id]: http://example.com/  "Optional Title Here"
-    This is [an example][id] reference-style link.
+```
+[id]: http://example.com/  "Optional Title Here"
+This is [an example][id] reference-style link.
+```
 
 预览：
 
 ---
 
-[id]: http://example.com/ "Optional Title Here"
-
-This is [an example][id] reference-style link.
+This is [an example](http://example.com/ "Optional Title Here") reference-style link.
 
 ---
 
@@ -675,52 +746,57 @@ This is [an example][id] reference-style link.
 
 代码：
 
-    [foo]: http://example.com/  "Optional Title Here"
-    [foo]: http://example.com/  'Optional Title Here'
-    [foo]: http://example.com/  (Optional Title Here)
-    [foo]: <http://example.com/>  "Optional Title Here"
+```
+[foo]: http://example.com/  "Optional Title Here"
+[foo]: http://example.com/  'Optional Title Here'
+[foo]: http://example.com/  (Optional Title Here)
+[foo]: <http://example.com/>  "Optional Title Here"
+```
 
 如果使用空的方括号，则链接文本本身会作为名称。
 
 代码：
 
-    [Google]: http://google.com/
-    [Google][]
+```
+[Google]: http://google.com/
+[Google][]
+```
 
 预览：
 
 ---
 
-[Google]: http://google.com/
-
-[Google][]
+[Google](http://google.com/)
 
 ---
 
-<a id="emphasis"></a>
+
+
 ### 强调
 
 HTML 标签：`<em>`，`<strong>`
 
-Markdown 使用 **星号 (\*)** 或 **下划线 (\_)** 表示强调。**一个分隔符**对应 `<em>`；**两个分隔符**对应 `<strong>`。
+Markdown 使用 **星号 ()** 或 **下划线 ()** 表示强调。**一个分隔符**对应 `<em>`；**两个分隔符**对应 `<strong>`。
 
 代码：
 
-    *single asterisks*
+```
+*single asterisks*
 
-    _single underscores_
+_single underscores_
 
-    **double asterisks**
+**double asterisks**
 
-    __double underscores__
+__double underscores__
+```
 
 预览：
 
 ---
 
-_single asterisks_
+*single asterisks*
 
-_single underscores_
+*single underscores*
 
 **double asterisks**
 
@@ -734,17 +810,20 @@ _single underscores_
 
 代码：
 
-    \*this text is surrounded by literal asterisks\*
+```
+\*this text is surrounded by literal asterisks\*
+```
 
 预览：
 
 ---
 
-\*this text is surrounded by literal asterisks\*
+this text is surrounded by literal asterisks
 
 ---
 
-<a id="code"></a>
+
+
 ### 行内代码
 
 HTML 标签：`<code>`
@@ -753,7 +832,9 @@ HTML 标签：`<code>`
 
 代码：
 
-    Use the `printf()` function.
+```
+Use the `printf()` function.
+```
 
 预览：
 
@@ -767,13 +848,15 @@ Use the `printf()` function.
 
 代码：
 
-    ``There is a literal backtick (`) here.``
+```
+``There is a literal backtick (`) here.``
+```
 
 预览：
 
 ---
 
-``There is a literal backtick (`) here.``
+`There is a literal backtick (`) here.`
 
 ---
 
@@ -781,21 +864,24 @@ Use the `printf()` function.
 
 代码：
 
-    A single backtick in a code span: `` ` ``
+```
+A single backtick in a code span: `` ` ``
 
-    A backtick-delimited string in a code span: `` `foo` ``
+A backtick-delimited string in a code span: `` `foo` ``
+```
 
 预览：
 
 ---
 
-A single backtick in a code span: `` ` ``
+A single backtick in a code span: ```
 
-A backtick-delimited string in a code span: `` `foo` ``
+A backtick-delimited string in a code span: ``foo``
 
 ---
 
-<a id="images"></a>
+
+
 ### 图片
 
 HTML 标签：`<img />`
@@ -810,9 +896,11 @@ Markdown 的图片语法与链接类似，支持行内与引用两种方式。
 
 代码：
 
-    ![Alt text](/path/to/img.jpg)
+```
+![Alt text](/path/to/img.jpg)
 
-    ![Alt text](/path/to/img.jpg "Optional title")
+![Alt text](/path/to/img.jpg "Optional title")
+```
 
 预览：
 
@@ -836,20 +924,21 @@ Markdown 的图片语法与链接类似，支持行内与引用两种方式。
 
 代码：
 
-    [img id]: https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp  "Optional title attribute"
-    ![Alt text][img id]
+```
+[img id]: https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp  "Optional title attribute"
+![Alt text][img id]
+```
 
 预览：
 
 ---
 
-[img id]: https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp "Optional title attribute"
-
-![Alt text][img id]
+![Alt text](https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp "Optional title attribute")
 
 ---
 
-<a id="strikethrough"></a>
+
+
 ### 删除线
 
 HTML 标签：`<del>`
@@ -872,27 +961,31 @@ GFM 增加了删除线语法。
 
 ---
 
-<a id="miscellaneous"></a>
+
+
 ## 杂项
 
-<a id="automatic-links"></a>
+
+
 ### 自动链接
 
 Markdown 支持一种便捷写法来创建“自动链接”（URL 与邮箱地址）：只需用尖括号将其包住即可。
 
 代码：
 
-    <http://example.com/>
+```
+<http://example.com/>
 
-    <address@example.com>
+<address@example.com>
+```
 
 预览：
 
 ---
 
-<http://example.com/>
+[http://example.com/](http://example.com/)
 
-<address@example.com>
+[address@example.com](mailto:address@example.com)
 
 ---
 
@@ -908,24 +1001,27 @@ https://github.com/emn178/markdown
 
 ---
 
-https://github.com/emn178/markdown
+[https://github.com/emn178/markdown](https://github.com/emn178/markdown)
 
 ---
 
-<a id="backslash-escapes"></a>
+
+
 ### 反斜杠转义
 
 Markdown 允许使用反斜杠来转义那些本用于 Markdown 语法的特殊字符，使其按字面显示。
 
 代码：
 
-    \*literal asterisks\*
+```
+\*literal asterisks\*
+```
 
 预览：
 
 ---
 
-\*literal asterisks\*
+literal asterisks
 
 ---
 
@@ -933,40 +1029,30 @@ Markdown 允许使用反斜杠来转义那些本用于 Markdown 语法的特殊�
 
 Code:
 
-    \   backslash
-    `   backtick
-    *   asterisk
-    _   underscore
-    {}  curly braces
-    []  square brackets
-    ()  parentheses
-    #   hash mark
-    +   plus sign
-    -   minus sign (hyphen)
-    .   dot
-    !   exclamation mark
+```
+\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+```
 
-<a id="inline-html"></a>
+
+
 ## 内联 HTML
 
 对于 Markdown 语法未覆盖的标记，直接使用原生 HTML 即可。无需特别声明从 Markdown 切换到 HTML，直接写标签就行。
 
 代码：
 
-    This is a regular paragraph.
-
-    <table>
-        <tr>
-            <td>Foo</td>
-        </tr>
-    </table>
-
-    This is another regular paragraph.
-
-预览：
-
----
-
+```
 This is a regular paragraph.
 
 <table>
@@ -974,6 +1060,21 @@ This is a regular paragraph.
         <td>Foo</td>
     </tr>
 </table>
+
+This is another regular paragraph.
+```
+
+预览：
+
+---
+
+This is a regular paragraph.
+
+
+|  |
+| --- |
+| Foo |
+
 
 This is another regular paragraph.
 
@@ -985,19 +1086,20 @@ This is another regular paragraph.
 
 代码：
 
-    <span>**Work**</span>
+```
+<span>**Work**</span>
 
-    <div>
-        **No Work**
-    </div>
+<div>
+    **No Work**
+</div>
+```
 
 预览：
 
 ---
 
-<span>**Work**</span>
+**Work**
 
-<div>
-  **No Work**
-</div>
-***
+**No Work**
+
+ ***

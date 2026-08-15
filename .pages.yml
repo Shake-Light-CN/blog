@@ -24,13 +24,6 @@ media:
     output: /assets/images
     categories: [image]
 
-  # 默认文件
-  - name: src-assets-images
-    label: 默认文件
-    input: src/assets/images
-    output: src/assets/images
-    categories: [image]
-
 content:
   # ============================================================
   # 📝 内容页面

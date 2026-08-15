@@ -27,15 +27,15 @@ export const booknavConfig: BooknavGroup[] = [
   	{
 		id: "teach",
 		name: "教育",
-		icon: "material-symbols:code-rounded",
-		desc: "好用的开源项目",
+		icon: "💯",
+		desc: "教育相关网站",
 		weight: 90,
 		items: [
 			{
-				title: "Firefly",
-				url: "https://github.com/CuteLeaf/Firefly",
-				desc: "清晰美观的 Astro 个人博客主题模板",
-				icon: "/favicon/firefly-32.png",
+				title: "智学网",
+				url: "https://www.zhixue.com",
+				desc: "让学习更简单",
+				icon: "https://pic.mksucai.com/00/12/58/6cc0ee415b0ef124.webp",
 				weight: 10,
 			},
 		],

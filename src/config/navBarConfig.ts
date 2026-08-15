@@ -95,7 +95,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Booknav,
           
 			{
-				name: "QQ群-信标学苑",
+				name: "Q群-信标学苑",
 				url: "https://qm.qq.com/q/EOyIVA5G5G",
 				external: true,
 				icon: "fa7-brands:qq",

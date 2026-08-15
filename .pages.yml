@@ -393,6 +393,13 @@ content:
         format: code
         description: PlantUML 服务器地址和明暗主题配置
 
+      - name: booknav
+        label: 🔖 书签导航
+        type: file
+        path: src/config/booknavConfig.ts
+        format: code
+        description: 书签导航配置管理书签导航页面的展示内容，用于按分类收藏和展示常用网站。
+
 settings:
   content:
     merge: false

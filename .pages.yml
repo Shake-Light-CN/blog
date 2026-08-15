@@ -27,8 +27,8 @@ media:
   # 默认文件
   - name: src-assets-images
     label: 默认文件
-    input: src/assets/images
-    output: src/assets/images
+    input: src
+    output: src
     categories: [image]
 
 content:

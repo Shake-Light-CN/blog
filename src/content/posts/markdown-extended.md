@@ -2,13 +2,17 @@
 title: Markdown 扩展功能
 published: 1970-01-01
 updated: 1970-01-01
-description: "了解 Firefly 中的 Markdown 功能"
-image: ""
-tags: [演示, 示例, Markdown, Firefly]
-category: "文章示例"
-slug: markdown-extended
+draft: true
+description: 了解 Firefly 中的 Markdown 功能
+tags:
+  - 演示
+  - 示例
+  - Markdown
+  - Firefly
+category: 文章示例
+pinned: false
+comment: true
 ---
-
 ## GitHub 仓库卡片
 
 您可以添加链接到 GitHub 仓库的动态卡片，在页面加载时，仓库信息会从 GitHub API 获取。

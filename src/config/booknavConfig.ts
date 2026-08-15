@@ -27,7 +27,7 @@ export const booknavConfig: BooknavGroup[] = [
 	{
 		id: "test",
 		name: "测试",
-		icon: "material-symbols:code-rounded",
+		icon: "selfhst:black-candy-light",
 		desc: "这只是个测试板块",
 		weight: -1,
 		items: [
@@ -35,7 +35,7 @@ export const booknavConfig: BooknavGroup[] = [
 				title: "测试",
 				url: "https://example.com",
 				desc: "测试",
-				icon: "",
+				icon: "selfhst:black-candy-light",
 				weight: -1,
 			},
 		],

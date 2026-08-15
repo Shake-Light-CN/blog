@@ -67,9 +67,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 番组计划
 			LinkPresets.Bangumi,
-
-			// 书签导航
-			LinkPresets.Booknav,
 		],
 	});
 
@@ -94,6 +91,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:link",
 		// 子菜单
 		children: [
+			// 书签导航
+			LinkPresets.Booknav,
 			{
 				name: "GitHub",
 				url: "https://github.com/CuteLeaf/Firefly",

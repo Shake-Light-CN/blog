@@ -1,11 +1,12 @@
 ---
 title: Markdown Mermaid 图表
 published: 1970-01-01
-pinned: false
+updated: 2026-08-15
+draft: true
 description: 一个包含 Mermaid 的 Markdown 博客文章简单示例。
-tags: [Markdown, 博客, Mermaid, Firefly]
 category: 文章示例
-slug: markdown-mermaid
+pinned: false
+comment: true
 ---
 ## Markdown 中 Mermaid 图表完整指南
 
@@ -16,7 +17,6 @@ slug: markdown-mermaid
 ## 流程图示例
 
 流程图非常适合表示流程或算法步骤。
-
 
 
 

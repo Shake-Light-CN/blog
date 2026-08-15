@@ -5,9 +5,6 @@ updated: 2026-08-15
 draft: true
 description: 在Firefly中使用表达性代码的代码块在 Markdown 中的外观。
 image: images/firefly3.avif
-tags:
-  - Markdown
-  - Firefly
 category: 文章示例
 pinned: false
 comment: true
@@ -355,6 +352,7 @@ def greet(name):
 ```
 
 :::
+
 ```
 
 渲染效果：

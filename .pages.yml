@@ -17,6 +17,13 @@ media:
     output: /assets
     categories: [image]
 
+  # 头图 / 壁纸
+  - name: banner
+    label: 站点头图
+    input: public/assets/images
+    output: /assets/images
+    categories: [image]
+
   # 默认文件
   - name: src-assets-images
     label: 默认文件

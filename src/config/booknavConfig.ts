@@ -32,6 +32,13 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 9000,
 		items: [
 			{
+				title: "易查分",
+				url: "https://www.yichafen.com/v20/index",
+				desc: "让学校和老师轻松拥有查分系统",
+				icon: "https://j7a6lvdd.yichafen.com/Public/static/images/ycfwpt-logo.png",
+				weight: 1,
+			},
+			{
 				title: "智学网",
 				url: "https://www.zhixue.com",
 				desc: "让学习更简单",
@@ -39,10 +46,24 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
 			{
+				title: "云学AI阅",
+				url: "https://yunxuexin.com:8098/#/Login",
+				desc: "AI赋能阅卷，让教育更美好",
+				icon: "https://yunxuexin.com:8098/logo.png",
+				weight: 1,
+			},
+			{
 				title: "七天网络",
 				url: "https://www.7net.cc/build/home/index/index.html",
 				desc: "安徽七天网络科技有限公司是一家以智能阅卷平台为依托、专注于教育大数据资源的开发与应用、服务于K12领域学校、学生和家长的国家高新技术互联网企业。",
 				icon: "https://zhengxin-pub.cdn.bcebos.com/logopic/a04def536e6039d3c33a756440211a3e_fullsize.jpg",
+				weight: 1,
+			},
+			{
+				title: "育路通阅卷系统",
+				url: "https://yue.hbyltedu.com",
+				desc: "考试服务云平台",
+				icon: "https://www.hbyltedu.com/logo.png",
 				weight: 1,
 			},
 		],

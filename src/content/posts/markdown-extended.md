@@ -4,11 +4,6 @@ published: 1970-01-01
 updated: 1970-01-01
 draft: true
 description: 了解 Firefly 中的 Markdown 功能
-tags:
-  - 演示
-  - 示例
-  - Markdown
-  - Firefly
 category: 文章示例
 pinned: false
 comment: true
@@ -49,7 +44,7 @@ export const siteConfig: SiteConfig = {
 
 这是 GitHub 官方支持的 5 种基本类型。
 
-![GitHub](./images/github.avif)
+![GitHub](images/github.avif)
 
 **基本语法**
 
@@ -79,8 +74,7 @@ export const siteConfig: SiteConfig = {
 
 [Obsidian](https://obsidian.md/) 风格支持非常丰富的类型和别名。
 
-<details>
-<summary>点击展开 Obsidian 语法列表</summary>
+点击展开 Obsidian 语法列表
 
 ```markdown
 
@@ -168,9 +162,10 @@ export const siteConfig: SiteConfig = {
 > [!NOTE] 自定义标题
 > 这是一个带有自定义标题的示例。
 ```
-</details>
 
-![Obsidian](./images/obsidian.avif)
+
+
+![Obsidian](images/obsidian.avif)
 
 ---
 
@@ -178,8 +173,7 @@ export const siteConfig: SiteConfig = {
 
 [VitePress](https://vitepress.dev/) 风格提供了一套现代化的、扁平的默认样式。目前仅包含与 GitHub 一致的 **5 种** 基础类型。
 
-<details>
-<summary>点击展开 VitePress 语法列表</summary>
+点击展开 VitePress 语法列表
 
 ```markdown
 > [!NOTE] NOTE
@@ -200,9 +194,10 @@ export const siteConfig: SiteConfig = {
 > [!TIP] 自定义标题
 > VitePress 风格同样支持自定义标题。
 ```
-</details>
 
-![VitePress](./images/vitepress.avif)
+
+
+![VitePress](images/vitepress.avif)
 
 ---
 
@@ -210,8 +205,7 @@ export const siteConfig: SiteConfig = {
 
 [Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) 风格提供了一套现代化的提醒框样式，支持 5 种类型。
 
-<details>
-<summary>点击展开 Docusaurus 语法列表 </summary>
+点击展开 Docusaurus 语法列表
 
 支持以下类型的提醒框：`note` `tip` `info` `warning` `danger`
 
@@ -241,9 +235,9 @@ export const siteConfig: SiteConfig = {
 :::
 ```
 
-</details>
 
-![Docusaurus](./images/docusaurus.avif)
+
+![Docusaurus](images/docusaurus.avif)
 
 ---
 
@@ -266,20 +260,20 @@ export const siteConfig: SiteConfig = {
 **图注恒定底端对齐：** 不论上面的图片长宽如何变化，在同一行的所有图像解释文字（图注）都会对标到一条完美的水平基线上了。
 
 [grid]
-![示例图片一](./images/firefly1.avif)
-![示例图片二](./images/firefly2.avif)
-![示例图片二](./images/firefly3.avif)
+![示例图片一](images/firefly1.avif)
+![示例图片二](images/firefly2.avif)
+![示例图片二](images/firefly3.avif)
 [/grid]
 
 **基本语法**
 
 ```markdown
 [grid]
-![示例图片一](./images/firefly1.avif)
-![示例图片二](./images/firefly2.avif)
-![示例图片二](./images/firefly3.avif)
+![示例图片一](images/firefly1.avif)
+![示例图片二](images/firefly2.avif)
+![示例图片二](images/firefly3.avif)
 [/grid]
 ```
 
-
 ---
+

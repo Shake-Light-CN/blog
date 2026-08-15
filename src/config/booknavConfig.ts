@@ -29,7 +29,7 @@ export const booknavConfig: BooknavGroup[] = [
 		name: "教育",
 		icon: "material-symbols:code-rounded",
 		desc: "教育相关网站",
-		weight: 90,
+		weight: 9000,
 		items: [
 			{
 				title: "智学网",

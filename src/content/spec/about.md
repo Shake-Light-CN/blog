@@ -13,7 +13,7 @@ title: 关于我
 
 ## 📫 联系方式
 
-如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
+如果你对本站的建设有什么看法，或者只是想和我打个招呼，欢迎通过以下方式联系我：
 
 - ✉️ **Email**: [shake-light@foxmail.com](mailto:shake-light@foxmail.com)
 - 💬 **QQ:** [点击此处添加好友](https://qm.qq.com/q/idgX2wjDOw)

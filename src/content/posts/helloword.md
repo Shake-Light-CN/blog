@@ -1,0 +1,9 @@
+---
+title: Hello,World!
+published: 2026-08-13
+updated: 2026-08-13
+draft: false
+pinned: false
+comment: true
+---
+在今天，这个博客正式启用了！

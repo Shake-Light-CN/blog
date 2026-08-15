@@ -54,6 +54,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/ghyjn.jpg",
 				lrc: "",
 			},
+            {
+				name: "如果当时",
+				artist: "许蒿",
+				url: "/assets/music/rgds.mp3",
+				cover: "/assets/music/cover/rgds.jpg",
+				lrc: "",
+			},
 		],
 	},
 };

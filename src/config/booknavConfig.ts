@@ -83,4 +83,5 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
 		],
+	},
 ];

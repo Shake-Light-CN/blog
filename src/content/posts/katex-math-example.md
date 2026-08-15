@@ -1,13 +1,13 @@
 ---
 title: KaTeX 数学公式示例
 published: 1970-01-02
+updated: 2026-08-15
+draft: true
 description: 展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。
-tags: [KaTeX, Math, 示例]
 category: 文章示例
-image: api
-slug: katex-math-example
+pinned: false
+comment: true
 ---
-
 本文展示了 [Firefly](https://github.com/CuteLeaf/Firefly) 主题对 KaTeX 数学公式的渲染支持。
 
 ## 行内公式 (Inline)
@@ -36,15 +36,15 @@ $$
 
 $$
 \begin{pmatrix}
-a & b \\
+a & b 
 c & d
 \end{pmatrix}
 \begin{pmatrix}
-\alpha & \beta \\
+\alpha & \beta 
 \gamma & \delta
 \end{pmatrix} =
 \begin{pmatrix}
-a\alpha + b\gamma & a\beta + b\delta \\
+a\alpha + b\gamma & a\beta + b\delta 
 c\alpha + d\gamma & c\beta + d\delta
 \end{pmatrix}
 $$
@@ -63,9 +63,9 @@ $$
 
 $$
 \begin{aligned}
-\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \mathbf{B} &= 0 \\
-\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} 
+\nabla \cdot \mathbf{B} &= 0 
+\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} 
 \nabla \times \mathbf{B} &= \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
 \end{aligned}
 $$
@@ -78,8 +78,9 @@ $$
 
 ## 更多符号
 
+
 | 符号 | 代码 | 渲染结果 |
-| :--- | :--- | :--- |
+| ----------- | ------------- | ------------- |
 | Alpha | `\alpha` | $\alpha$ |
 | Beta | `\beta` | $\beta$ |
 | Gamma | `\Gamma` | $\Gamma$ |
@@ -87,5 +88,6 @@ $$
 | Infinity | `\infty` | $\infty$ |
 | Right Arrow | `\rightarrow` | $\rightarrow$ |
 | Partial | `\partial` | $\partial$ |
+
 
 更多 KaTeX 语法请参考 [KaTeX Supported Functions](https://katex.org/docs/supported.html)。

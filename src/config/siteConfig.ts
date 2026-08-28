@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Shake Light's Blog",
 
 	// 站点 URL
-	site_url: "https://blog.shake-light.dynv6.net",
+	site_url: "https://blog.shake-light.de5.net",
 
 	// 站点描述
 	description:

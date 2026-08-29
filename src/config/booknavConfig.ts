@@ -64,7 +64,7 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "VoicrCraft",
 				url: "https://tts.wangwangit.com",
-				desc: "智能随机抽选工具",
+				desc: "AI驱动的语音处理平台",
 				icon: "material-symbols:auto-detect-voice",
 				weight: 1,
 			},

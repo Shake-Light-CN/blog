@@ -203,6 +203,27 @@ export const booknavConfig: BooknavGroup[] = [
 				icon: "/assets/images/linklogo/seewoaiteacherworkspace.png",
 				weight: 1,
 			},
+			{
+				title: "希沃学苑",
+				url: "https://study.seewoedu.com",
+				desc: "希沃学苑,教师专属信息化教学技能提升平台,致力于K12领域信息化教学技能培训,为广大教师提供微课制作、信息化教学软件体系化课程,分享名师教学经验,共享优质教育资源",
+				icon: "/assets/images/linklogo/seewoedu.png",
+				weight: 1,
+			},
+			{
+				title: "希沃软件历史版本收集库",
+				url: "https://swapp.lazyerpaper.top/packages",
+				desc: "希沃软件历史版本收集库",
+				icon: "/assets/images/linklogo/seewo.png",
+				weight: 1,
+			},
+			{
+				title: "希沃集控云控配置获取工具",
+				url: "https://hugo.swhelper.dynv6.net",
+				desc: "希沃集控云控配置获取工具（镜像站）",
+				icon: "/assets/images/linklogo/seewo.png",
+				weight: 1,
+			},
 		],
 	},
 ];

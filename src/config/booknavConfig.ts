@@ -198,7 +198,7 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 			{
 				title: "希沃AI教师空间",
-				url: "https://t.seewo.cm",
+				url: "https://t.seewo.com",
 				desc: "魔方·智慧教学",
 				icon: "/assets/images/linklogo/seewoaiteacherworkspace.png",
 				weight: 1,
@@ -218,7 +218,7 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
 			{
-				title: "希沃集控云控配置获取工具",
+				title: "希沃集控云控配置获取工具（镜像站）",
 				url: "https://hugo.swhelper.dynv6.net",
 				desc: "希沃集控云控配置获取工具（镜像站）",
 				icon: "/assets/images/linklogo/seewo.png",

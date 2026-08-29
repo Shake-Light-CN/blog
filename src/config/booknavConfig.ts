@@ -43,7 +43,7 @@ export const booknavConfig: BooknavGroup[] = [
   	{
 		id: "exam",
 		name: "考试",
-		icon: fa7-solid:chalkboard-teacher",
+		icon: "fa7-solid:chalkboard-teacher",
 		desc: "考试相关网站",
 		weight: 1,
 		items: [

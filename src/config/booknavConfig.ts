@@ -213,14 +213,14 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "希沃软件历史版本收集库",
 				url: "https://swapp.lazyerpaper.top/packages",
-				desc: "希沃软件历史版本收集库",
+				desc: "【非官方，自行辨别】希沃软件历史版本收集库",
 				icon: "/assets/images/linklogo/seewo.png",
 				weight: 1,
 			},
 			{
 				title: "希沃集控云控配置获取工具（镜像站）",
 				url: "https://hugo.swhelper.dynv6.net",
-				desc: "希沃集控云控配置获取工具（镜像站）",
+				desc: "【非官方，自行辨别】希沃集控云控配置获取工具（镜像站）",
 				icon: "/assets/images/linklogo/seewo.png",
 				weight: 1,
 			},

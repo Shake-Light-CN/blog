@@ -43,7 +43,7 @@ export const booknavConfig: BooknavGroup[] = [
   	{
 		id: "exam",
 		name: "考试",
-		icon: "/assets/images/linklogo/exam.svg",
+		icon: "/assets/images/linklogo/exam.png",
 		desc: "考试相关网站",
 		weight: 1,
 		items: [

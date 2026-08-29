@@ -112,4 +112,20 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 		],
 	},
+	{
+		id: "seewo",
+		name: "希沃",
+		icon: "fa7-solid:blackboard",
+		desc: "希沃相关网站",
+		weight: 1,
+		items: [
+			{
+				title: "希沃·seewo",
+				url: "https://www.seewo.com",
+				desc: "教育数字化应用及服务提供商",
+				icon: "/assets/images/linklogo/seewologo.png",
+				weight: 1,
+			},
+		],
+	},
 ];

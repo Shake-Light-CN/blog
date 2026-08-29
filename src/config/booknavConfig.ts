@@ -207,7 +207,7 @@ export const booknavConfig: BooknavGroup[] = [
 				title: "希沃学苑",
 				url: "https://study.seewoedu.com",
 				desc: "希沃学苑,教师专属信息化教学技能提升平台,致力于K12领域信息化教学技能培训,为广大教师提供微课制作、信息化教学软件体系化课程,分享名师教学经验,共享优质教育资源",
-				icon: "/assets/images/linklogo/seewoedu.png",
+				icon: "/assets/images/linklogo/seewostudyedu.png",
 				weight: 1,
 			},
 			{

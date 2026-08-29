@@ -82,6 +82,27 @@ export const booknavConfig: BooknavGroup[] = [
 				icon: "/assets/images/linklogo/hbyltedu.png",
 				weight: 1,
 			},
+            {
+				title: "华腾睿云阅卷系统（旧）",
+				url: "https://yj.xuepingedu.com/tchclassroom/#/login",
+				desc: "华腾睿云专注K12领域，为教育主管部门、教研单位及学校提供“智慧教育检测方案设计与实施”综合服务，聚焦数据采集、教学诊断、教育测量与考试评价，为用户开展教学诊断、诊治提供依据。",
+				icon: "/assets/images/linklogo/huatengruiyun.png",
+				weight: 1,
+			},
+            {
+				title: "华腾睿云阅卷系统（新）",
+				url: "https://yj.xuepingedu.com/#/login",
+				desc: "华腾睿云专注K12领域，为教育主管部门、教研单位及学校提供“智慧教育检测方案设计与实施”综合服务，聚焦数据采集、教学诊断、教育测量与考试评价，为用户开展教学诊断、诊治提供依据。",
+				icon: "/assets/images/linklogo/huatengruiyun.png",
+				weight: 1,
+			},
+            {
+				title: "好分数",
+				url: "https://www.haofenshu.com/home",
+				desc: "好分数精准教学",
+				icon: "/assets/images/linklogo/haofenshu.png",
+				weight: 1,
+			},
 		],
 	},
 ];

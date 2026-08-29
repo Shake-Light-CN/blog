@@ -90,6 +90,13 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
             {
+				title: "达美嘉",
+				url: "http://51baxue.com/login/",
+				desc: "达美嘉教学诊断&质量监测平台",
+				icon: "/assets/images/linklogo/domega.png",
+				weight: 1,
+			},
+            {
 				title: "华腾睿云阅卷系统（旧）",
 				url: "https://yj.xuepingedu.com/tchclassroom/#/login",
 				desc: "华腾睿云专注K12领域，为教育主管部门、教研单位及学校提供“智慧教育检测方案设计与实施”综合服务，聚焦数据采集、教学诊断、教育测量与考试评价，为用户开展教学诊断、诊治提供依据。",

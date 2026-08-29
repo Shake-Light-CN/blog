@@ -158,7 +158,7 @@ export const booknavConfig: BooknavGroup[] = [
 				title: "希沃白板网页版",
 				url: "https://enweb3.seewo.com",
 				desc: "为互动教学而生",
-				icon: "/assets/images/linklogo/seewoeasinoteweb.ng",
+				icon: "/assets/images/linklogo/seewoeasinoteweb.png",
 				weight: 1,
 			},
 			{
@@ -169,10 +169,10 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 1,
 			},
 			{
-				title: "希沃魔方·数字基座",
-				url: "https://mf.seewo.com",
-				desc: "统筹管理，开放融合，数据决策",
-				icon: "/assets/images/linklogo/seewomofangyun.png",
+				title: "希沃AI备课",
+				url: "https://bloom.seewo.com",
+				desc: "和AI一起迸发灵感",
+				icon: "/assets/images/linklogo/seewobloom.png",
 				weight: 1,
 			},
 		],

@@ -40,6 +40,22 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 		],
 	},
+	{
+		id: "fixbox",
+		name: "小工具",
+		icon: "material-symbols:code-rounded",
+		desc: "一些实用的小工具",
+		weight: -1,
+		items: [
+			{
+				title: "随机抽选",
+				url: "https://sjcx.shake-light.de5.net",
+				desc: "智能随机抽选工具",
+				icon: "/assets/images/linklogo/sjcx.png",
+				weight: -1,
+			},
+		],
+	},
   	{
 		id: "exam",
 		name: "考试",
